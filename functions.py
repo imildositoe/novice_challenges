@@ -13,6 +13,7 @@ def payment_day(working_hours, payment_hour = 25):
 def main():
     print("The total payment is: {}".format(payment_day(8)))
     print("The total payment is: " + str(payment_day(8) + 150))
+    lambda_function()
 
     global bucket
     bucket = {1: "My", 2: 1, 3: "st favorite language, that's ", 4: True, 5: 0.07}
@@ -26,6 +27,10 @@ def main():
 def multiples_parameters(**kwargs):
     for key, value in kwargs.items():
         print("The {}: {}".format(key, value))
+
+def lambda_function():
+    multiply = lambda a: a * result
+    print ("The result of the lambda function is: {}".format(multiply(8)))
 
 if __name__ == '__main__':
     main()
