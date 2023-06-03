@@ -21,7 +21,6 @@ def main():
         print("The array value of {}".format(key) + " is: {}".format(value))
 
     multiples_parameters(value = bucket)
-    print("{}".format("-------------------Separator------------------"))
     multiples_parameters(first_value = "Pyhon", second_value = 25, third_value = "is", forth_value = True, fifth_value = 0.007 * result)
 
 def multiples_parameters(**kwargs):
