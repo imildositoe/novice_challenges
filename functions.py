@@ -11,6 +11,7 @@ def payment_day(working_hours, payment_hour = 25):
 def main():
     print("The total payment is: {}".format(payment_day(8)))
     print("The total payment is: " + str(payment_day(8) + 150))
+    input_func()
 
     bucket = {1: "My", 2: 1, 3: "st favorite language, that's ", 4: True, 5: 0.07}
     multiples_parameters(value = bucket)
@@ -23,6 +24,11 @@ def multiples_parameters(**kwargs):
             pass
         else:
             print("The {}: {}".format(key, value))
+
+def input_func():
+    value = input("Please input the value")
+    if value != None:
+        print("The introduced value is: {}".format(value))
 
 if __name__ == '__main__':
     main()
