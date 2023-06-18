@@ -57,6 +57,7 @@ def main():
     plt.xlabel("x")
     plt.ylabel("y")
     plt.title("Functions Interpolation Example")
+    print("Showing the function in the GUI")
     plt.show()
  
 if __name__ == '__main__':
