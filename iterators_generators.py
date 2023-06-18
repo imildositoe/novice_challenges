@@ -1,3 +1,5 @@
+from itertools import count
+
 def sequence_number_generator(low, high):
     while low <= high:
         yield low
@@ -8,6 +10,10 @@ def main():
     for number in sequence_number_generator(0, 5):
         number_list.append(number)
     print(number_list)
+
+    sequence = count(start = 2.5, step = 0.5)
+    while (next(sequence) <= 8):
+        print(next(sequence))
 
 if __name__ == '__main__':
     main()
