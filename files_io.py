@@ -21,3 +21,4 @@ class FilesIO:
     def read():
         file = open("text_file.txt", "r")
         return file.read()
+    
