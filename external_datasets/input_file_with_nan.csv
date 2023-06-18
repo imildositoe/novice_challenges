@@ -1,0 +1,9 @@
+﻿col1;col2;col3;col4
+;2.1;bar;TRUE
+;;;FALSE
+3;2.3;club;TRUE
+5;2.4;bar;
+;2.5;bar;FALSE
+6;;club;TRUE
+2;2.5;house;
+3;2.3;club;TRUE
