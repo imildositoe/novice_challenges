@@ -28,7 +28,7 @@ def main():
         plt.title("Bessel Functions")
         plt.show()
 
-    # example 2: calculate definite integral
+    # example 2: calculate definite integral to be used in the calculations
     a = 0
     b = 1
     integral_value, absolute_error = quad(function_defined, a, b)
