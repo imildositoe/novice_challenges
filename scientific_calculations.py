@@ -9,6 +9,10 @@ def main():
     
     df_data = pd.DataFrame(data=dictionary)
     print(df_data)
+    
+    # Testing next function with loop statement 
+    while (df_data.next() != None):
+        print(df_data.next()
 
 if __name__ == '__main__':
     main()
