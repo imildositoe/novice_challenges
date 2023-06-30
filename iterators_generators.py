@@ -17,5 +17,6 @@ def main():
         if (sequence == 7):
             break
 
+
 if __name__ == '__main__':
     main()
