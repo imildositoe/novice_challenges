@@ -12,7 +12,7 @@ def main():
     # example 1: calculate first and second kind bessel functions
     alpha = 0
     x = 0.0
-    print("first kind bessel function")
+    print("first kind bessel function printed")
     print("J_{}({}) = {}".format(alpha, x, jn(alpha, x)))
     x = 1.0
     print("second kind bessel function")
