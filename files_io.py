@@ -15,7 +15,6 @@ class FilesIO:
         file.write("This is the best code ever\nSure, sir!\n")
         file.close()
 
-
     '''
     :we should loop when having multiple lines in the file
     '''
