@@ -11,7 +11,6 @@ def main():
         number_list.append(number)
     print(number_list)
 
-
     sequence = count(start = 2.5, step = 0.5)
     while (next(sequence) <= 8):
         print(next(sequence))
