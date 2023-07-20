@@ -6,6 +6,7 @@ def main():
                   "col 2": [6., 7., 8., 9., 10.],
                   "col 3": ["um", "dois", "tres", "quatro", "cinco", "seis"]
                  }
+    list = {"1": 1, "2": 2}
     
     df_data = pd.DataFrame(data=dictionary)
     print(df_data)
