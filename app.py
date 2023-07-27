@@ -1,5 +1,5 @@
 def main():
-    text = "Python"
+    text = "Python language"
     print(len(text))
 
     concatenated = text.join(("is the best language", "in the world"))
