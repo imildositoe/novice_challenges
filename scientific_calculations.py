@@ -14,6 +14,7 @@ def main():
     # Testing next function with loop statement 
     while (df_data.next() != None):
         print(df_data.next())
+        print(df_data)
 
 if __name__ == '__main__':
     main()
