@@ -41,6 +41,7 @@ def main():
     
     # set the actual function
     y_actual = function_defined(x)
+    
     # generate random experiment data
     y_experiment = function_defined(n) + 0.1 * np.random.randn(len(n))
     linear_interpolation = interp1d(n, y_experiment, kind="linear")
