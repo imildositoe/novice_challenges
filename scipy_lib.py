@@ -21,6 +21,7 @@ def main():
     x = np.linspace(0, 10, 100)
     fig, ax = plt.subplots()
     
+    
     for alpha in range(4):
         ax.plot(x, jn(alpha, x), label=r"J$_{}(x)$".format(alpha))
         ax.legend()
