@@ -39,7 +39,6 @@ def main():
     # example 3. linear and cubic functions interpolation
     n = np.arange(0, 10)
     x = np.linspace(0, 9, 100)
-    
     # set the actual function
     y_actual = function_defined(x)
     
