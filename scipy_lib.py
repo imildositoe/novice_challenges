@@ -54,6 +54,7 @@ def main():
     # get cubic interpolation
     y_cubic_interpolation = cubic_interpolation(x)
     
+    
     # plot y actual, experiment, linear and cubic interpolation
     fig, ax = plt.subplots(figsize=(10,4))
     ax.plot(n, y_experiment, "bs", label="experiment data")
