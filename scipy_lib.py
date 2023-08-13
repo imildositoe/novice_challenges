@@ -46,7 +46,6 @@ def main():
     y_experiment = function_defined(n) + 0.1 * np.random.randn(len(n))
     linear_interpolation = interp1d(n, y_experiment, kind="linear")
     
-    
     # get linear interpolation
     y_linear_interpolation = linear_interpolation(x)
     cubic_interpolation = interp1d(n, y_experiment, kind="cubic")
