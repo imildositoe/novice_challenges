@@ -13,7 +13,6 @@ def main():
     print(concatenated)
     print(count)
     print(is_in)
-    print(concatenated)
 
 if __name__ == '__main__':
     main()
