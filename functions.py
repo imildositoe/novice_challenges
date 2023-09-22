@@ -25,6 +25,7 @@ def multiples_parameters(**kwargs):
             print("The {}: {}".format(key, value))
             pass
 
+
 def input_func():
     value = input("Please input the value")
     if value != None:
