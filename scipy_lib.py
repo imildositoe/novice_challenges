@@ -67,7 +67,6 @@ def main():
     print("Showing the example of the function in the GUI")
     plt.show()
 
-
 if __name__ == '__main__':
     main()
     function_defined()
