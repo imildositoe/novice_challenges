@@ -15,7 +15,7 @@ def main():
         while (df_data.next() != None):
             print(df_data.next())
             print(df_data)
-    except Exception (BaseException):
+    except Exception:
         pass
 
 if __name__ == '__main__':
