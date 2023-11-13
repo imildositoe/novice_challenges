@@ -64,9 +64,8 @@ def main():
     plt.ylabel("y")
     plt.title("Functions Interpolation Example")
     
-    print("Showing the example of the function in the GUI")
+    print("Visually showing the example of the function")
     plt.show()
 
 if __name__ == '__main__':
     main()
-    function_defined()
