@@ -17,7 +17,7 @@ def main():
         print(next(sequence))
         
         if (sequence == 7):
-            print()
+            print('Breaking...')
             break
 
 if __name__ == '__main__':
