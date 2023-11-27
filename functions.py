@@ -17,7 +17,6 @@ def main():
     multiples_parameters(value = bucket)
     multiples_parameters(first_value = "Pyhon", second_value = 25, third_value = "is", forth_value = True, fifth_value = 0.007, sixty_value = None, seventy_value = 'data visualization')
 
-
 def multiples_parameters(**kwargs):
     for key, value in kwargs.items():
         if value == None:
@@ -31,7 +30,6 @@ def input_func():
     if value != None:
         print("The introduced value is: {}".format(value))
         print("The another introduced value is: ", value)
-
 
 if __name__ == '__main__':
     main()
