@@ -8,6 +8,7 @@ def main():
                  }
     list = {"1": 1, "2": 2}
     
+    
     df_data = pd.DataFrame(data=dictionary)
     print(df_data)
     try:
@@ -17,6 +18,7 @@ def main():
             print(df_data)
     except Exception:
         pass
+
 
 if __name__ == '__main__':
     main()
