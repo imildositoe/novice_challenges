@@ -65,8 +65,10 @@ def main():
     plt.ylabel("y")
     plt.title("Functons Interpolation Example")
     
+    
     print("Visually showing the example of the function")
     plt.show()
+
 
 if __name__ == '__main__':
     main()
