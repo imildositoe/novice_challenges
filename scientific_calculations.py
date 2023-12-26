@@ -8,7 +8,6 @@ def main():
                  }
     list = {"1": 1, "2": 2}
     
-    
     df_data = pd.DataFrame(data=dictionary)
     print(df_data)
     try:
