@@ -32,6 +32,5 @@ def input_func():
         print("The introduced value is: {}".format(value))
         print("The another introduced value is: ", value)
 
-
 if __name__ == '__main__':
     main()
