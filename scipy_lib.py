@@ -49,10 +49,12 @@ def main():
     # get linear interpolation
     y_linear_interpolation = linear_interpolation(x)
     cubic_interpolation = interp1d(n, y_experiment, kind="cubic")
-    
+
+ 
     # get cubic interpolation
     y_cubic_interpolation = cubic_interpolation(x)
-    
+
+ 
     # plot y actual, experiment, linear and cubic interpolation
     fig, ax = plt.subplots(figsize=(10,4))
     ax.plot(n, y_experiment, "bs", label="experiment data")
@@ -65,7 +67,6 @@ def main():
     plt.ylabel("y")
     plt.title("Functons Interpolation Example")
 
- 
     print("Visually showing the example of the function")
     plt.show()
 
