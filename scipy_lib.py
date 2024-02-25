@@ -50,10 +50,8 @@ def main():
     y_linear_interpolation = linear_interpolation(x)
     cubic_interpolation = interp1d(n, y_experiment, kind="cubic")
 
- 
     # get cubic interpolation
     y_cubic_interpolation = cubic_interpolation(x)
-
  
     # plot y actual, experiment, linear and cubic interpolation
     fig, ax = plt.subplots(figsize=(10,4))
