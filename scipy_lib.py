@@ -60,14 +60,15 @@ def main():
     ax.plot(x, y_linear_interpolation, "r", label="linear interpolation")
     ax.plot(x, y_cubic_interpolation, "g", label="cubic interpolation")
     ax.legend(loc=3)
-    
+
+ 
     plt.xlabel("x")
     plt.ylabel("y")
     plt.title("Functons Interpolation Example")
 
+ 
     print("Visually showing the example of the function")
     plt.show()
-
 
 if __name__ == '__main__':
     main()
