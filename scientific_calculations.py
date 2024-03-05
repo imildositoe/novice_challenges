@@ -11,6 +11,7 @@ def main():
     df_data = pd.DataFrame(data=dictionary)
     print(df_data)
     
+
     try:
         # Testing next function with loop statement
         while (df_data.next() != None):
@@ -18,6 +19,7 @@ def main():
             print(df_data)
     except Exception:
         pass
+
 
 if __name__ == '__main__':
     main()
