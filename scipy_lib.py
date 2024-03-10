@@ -61,7 +61,6 @@ def main():
     ax.plot(x, y_cubic_interpolation, "g", label="cubic interpolation")
     ax.legend(loc=3)
 
- 
     plt.xlabel("x")
     plt.ylabel("y")
     plt.title("Functons Interpolation Example")
