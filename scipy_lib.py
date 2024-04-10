@@ -41,17 +41,14 @@ def main():
     x = np.linspace(0, 9, 100)
     # set the actual function
     y_actual = function_defined(x)
-    
 
     # generate random experiment data
     y_experiment = function_defined(n) + 0.1 * np.random.randn(len(n))
     linear_interpolation = interp1d(n, y_experiment, kind="linear")
-    
 
     # get linear interpolation
     y_linear_interpolation = linear_interpolation(x)
     cubic_interpolation = interp1d(n, y_experiment, kind="cubic")
-
 
     # get cubic interpolation
     y_cubic_interpolation = cubic_interpolation(x)
