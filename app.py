@@ -10,11 +10,9 @@ def main():
     count = concatenated.count("o")
     is_in = "not" in concatenated
     
-
     print(concatenated)
     print(count)
     print(is_in)
-
 
 if __name__ == '__main__':
     main()
