@@ -11,6 +11,7 @@ def main():
         number_list.append(number)
         
     print(number_list)
+    print(number_list)
 
 
     sequence = count(start = 2.5, step = 0.5)
