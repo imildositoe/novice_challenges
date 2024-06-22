@@ -1,4 +1,4 @@
-import numpy as np
+iimport numpy as np
 from scipy.special import jn, yn, jn_zeros, yn_zeros
 from scipy.integrate import quad, dblquad, tplquad
 import matplotlib.pyplot as plt
@@ -65,10 +65,8 @@ def main():
     plt.ylabel("y")
     plt.title("Functons Interpolation Example")
 
-
     print("Visually showing the example of the function")
     plt.show()
-
 
 if __name__ == '__main__':
     main()
