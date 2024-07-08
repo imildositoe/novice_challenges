@@ -8,6 +8,7 @@ import random as rand
 def function_defined(x):
     return np.cos(x)
  
+
 def main():
     # example 1: calculate first and second kind bessel functions
     alpha = 0
@@ -60,7 +61,6 @@ def main():
     ax.plot(x, y_linear_interpolation, "r", label="linear interpolation")
     ax.plot(x, y_cubic_interpolation, "g", label="cubic interpolation")
     ax.legend(loc=3)
-
 
     plt.xlabel("x")
     plt.ylabel("y")
