@@ -8,7 +8,6 @@ import random as rand
 def function_defined(x):
     return np.cos(x)
  
-
 def main():
     # example 1: calculate first and second kind bessel functions
     alpha = 0
@@ -68,6 +67,7 @@ def main():
 
     print("Visually showing the example of the function")
     plt.show()
+
 
 if __name__ == '__main__':
     main()
