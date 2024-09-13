@@ -17,9 +17,11 @@ def main():
     while (next(sequence) <= 8):
         print(next(sequence))
 
+
         if (sequence == 7):
             print('Breaking...')
             break
+
 
 if __name__ == '__main__':
     main()
