@@ -25,13 +25,11 @@ def multiples_parameters(**kwargs):
             print("The {}: {}".format(key, value))
             pass
 
-
 def input_func():
     value = input("Please input the value")
     if value != None:
         print("The introduced value is: {}".format(value))
         print("The another introduced value is: ", value)
-
 
 if __name__ == '__main__':
     main()
