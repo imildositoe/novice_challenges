@@ -1,4 +1,4 @@
-iimport numpy as np
+import numpy as np
 from scipy.special import jn, yn, jn_zeros, yn_zeros
 from scipy.integrate import quad, dblquad, tplquad
 import matplotlib.pyplot as plt
