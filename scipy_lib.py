@@ -30,11 +30,13 @@ def main():
         plt.title("Bessel Functions")
         plt.show()
 
+
     # example 2: calculate definite integral to be used in the calculations
     a = 0
     b = 1
     integral_value, absolute_error = quad(function_defined, a, b)
     print("integral value: {} \nabsolute error:{}".format(integral_value, absolute_error))
+
                     
     # example 3. linear and cubic functions interpolation
     n = np.arange(0, 10)
