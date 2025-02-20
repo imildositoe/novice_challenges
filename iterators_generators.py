@@ -5,6 +5,7 @@ def sequence_number_generator(low, high):
         yield low
         low += 1
 
+
 def main():
     number_list = []
     for number in sequence_number_generator(0, 10):
@@ -20,6 +21,7 @@ def main():
         if (sequence == 7):
             print('Breaking...')
             break
+
 
 if __name__ == '__main__':
     main()
